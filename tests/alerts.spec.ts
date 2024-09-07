@@ -15,7 +15,7 @@ test.skip("handling simpleAlert", async ({ page }) => {
 });
 
 // Confirm alert
-test.only("handling confirmAlert", async ({ page }) => {
+test("handling confirmAlert", async ({ page }) => {
 
     await page.goto("https://www.lambdatest.com/selenium-playground/javascript-alert-box-demo");
 
